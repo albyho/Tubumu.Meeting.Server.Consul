@@ -1,10 +1,9 @@
 ﻿using System;
 using Consul;
-using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Tubumu.Meeting.Server.Consul;
-using Microsoft.AspNetCore.Builder;
 
 namespace Microsoft.AspNetCore.Builder
 {
