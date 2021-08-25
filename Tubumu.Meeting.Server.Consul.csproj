@@ -13,12 +13,16 @@
     <RepositoryUrl>https://github.com/albyho/Tubumu.Meeting.Server.Consul</RepositoryUrl> 
     <RepositoryType>git</RepositoryType>
 
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
     
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  <PropertyGroup>
     <NoWarn>1701;1702;CS8618</NoWarn>
   </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
   <ItemGroup>    
     <PackageReference Include="Consul" Version="1.6.10.3" />
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
