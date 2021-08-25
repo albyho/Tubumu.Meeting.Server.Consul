@@ -5,9 +5,10 @@
     <Nullable>enable</Nullable>
 
     <PackageId>Tubumu.Meeting.Server.Consul</PackageId>
-    <Version>3.0.0</Version>
+    <Version>3.1.0</Version>
     <Authors>Alby</Authors>
     <Company>Tubumu</Company>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
 
     <RepositoryUrl>https://github.com/albyho/Tubumu.Meeting.Server.Consul</RepositoryUrl> 
     <RepositoryType>git</RepositoryType>
@@ -28,5 +29,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.9" />
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="5.0.0" />
   </ItemGroup>
-
+  <ItemGroup>
+      <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 </Project>
