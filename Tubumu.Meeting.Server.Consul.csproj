@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
 
     <PackageId>Tubumu.Meeting.Server.Consul</PackageId>
-    <Version>3.1.0</Version>
+    <Version>3.2.0</Version>
     <Authors>Alby</Authors>
     <Company>Tubumu</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -34,6 +34,6 @@
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="5.0.0" />
   </ItemGroup>
   <ItemGroup>
-      <None Include="README.md" Pack="true" PackagePath="\"/>
+      <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 </Project>
